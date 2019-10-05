@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #145e5a;
+    height: 125px;
+    font-family: 'Varela Round', sans-serif;
+    color: lightskyblue;
+}
+
+#headerContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#profileContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#profilePicSection {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 500px;
+}
+
+#profilePic {
+    border: 8px solid lightskyblue;
+    width: 400px;
+    height: 400px;
+    border-radius: 45rem;
+}
+
+#skillsSection {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    padding: 25px 25px 25px 25px;
+}
+
+#mySkillsSection {
+    margin: 30px 0 10px 0;
+}
+
+#mySkillsTitle {
+    font-size: 5rem;
+}
+
+#mySkillsList {
+    font-size: 2rem;
+}
+
+.col-1 {
+    border-radius: 45rem;
+    background-color: black;
+    border: 3px solid darkred;
+}
+
+#iconBox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    }
+
+#iconBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 100px;
+}
+
+#iconBox3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+   }
+
+#iconBox4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.iconPic {
+    width: 75px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+#linkRow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: darkslategrey;
+}
+
+footer {
+    position: absolute;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 200px;
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: black;
+    color: darkred;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2rem;
+    padding-left: 25px;
+    po
+}

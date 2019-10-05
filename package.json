@@ -1,0 +1,23 @@
+{
+  "name": "l10handson",
+  "version": "1.0.0",
+  "description": "Lesson 10 Final Project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnySanNicolas/L10HandsOn.git"
+  },
+  "author": "Johnny San Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnySanNicolas/L10HandsOn/issues"
+  },
+  "homepage": "https://github.com/JohnnySanNicolas/L10HandsOn#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.10.2"
+  }
+}
