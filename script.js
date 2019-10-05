@@ -15,12 +15,12 @@ $(document).ready(function () {
     gitHubRequest.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             let gitObject = JSON.parse(this.responseText);
-            document.getElementById("gitHubReposList").innerHTML = gitObject[0].name;
-
-        }
+            for (var i = 0; i < gitObject.length; i++) {
+                document.getElementById("gitHubReposList").innerHTML += "<li>" + gitObject[i].name + "</li><br>";
+            };
+        };
     };
     gitHubRequest.open("GET", "https://api.github.com/users/JohnnySanNicolas/repos", true);
     gitHubRequest.send();
 
-
-});
+});    
