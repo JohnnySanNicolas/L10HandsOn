@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/JohnnySanNicolas/L10HandsOn#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "react": "^16.10.2"
   }
 }
